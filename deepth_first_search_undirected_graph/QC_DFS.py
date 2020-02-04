@@ -1,5 +1,9 @@
 class Dot:
-
+    """
+      black: haven't reached yet;
+      red: discovered;
+      blue: finished;
+    """
     def __init__(self, name):
         self.name = name
         self.color = 'black'
